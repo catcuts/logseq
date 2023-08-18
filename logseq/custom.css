@@ -1,0 +1,46 @@
+span[data-ref="#red"],
+span[data-ref="#green"],
+span[data-ref="#blue"],
+span[data-ref="#orange"],
+span[data-ref="#redf"],
+span[data-ref="#greef"],
+span[data-ref="#newcolor"],
+span[data-ref="#bluef"] {
+    display: none;
+}
+
+span[data-ref="#red"] + mark {
+    background: #ffc7c7;
+    border-radius: 10px;
+}
+span[data-ref="#green"] + mark {
+    background: #ccffc1;
+}
+span[data-ref="#blue"] + mark {
+    background: #abdfff;
+    border-radius: 10px;
+}
+span[data-ref="#newcolor"] + mark {
+	background: #cccfff;
+}
+span[data-ref="#orange"] + mark {
+	background: #abdfff;
+}
+span[data-ref="#redf"] + mark {
+    color: #ffc7c7;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+}
+span[data-ref="#greef"] + mark {
+    color: #ccffc1;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+}
+span[data-ref="#bluef"] + mark {
+    color: #abdfff;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+}
